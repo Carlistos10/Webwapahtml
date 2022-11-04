@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 - CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+        </header>
+        <div id="principal">
+            <nav>
+                <!-- ul>a*9>li  -->
+                <ul>
+                    <a href="index.html"><li>HOME</li></a>
+                    <a href="parrafos.html"><li>PÁRRAFOS</li></a>
+                    <a href="enlaces.html"><li>ENLACES</li></a>
+                    <a href="listas.html"><li>LISTAS</li></a>
+                    <a href="tablas.html"><li>TABLAS</li></a>
+                    <a href="formularios.html"><li>FORMULARIOS</li></a>
+                    <a href="multimedia.html"><li>MULTIMEDIA</li></a>
+                    <a href="formhtml5.html"><li>FORM-HTML5</li></a>
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formularios">
+                    <h1 class="txt-center">Formulario</h1>
+                    <h2>Form login</h2>
+                    <form action="pagina.html" method="post">
+                        User: <input type="text" name="user" /><br /><br />
+                        Password: <input type="password" name="clave" /><br /><br />
+                        <input type="submit" value="Aceptar" />
+                    </form>
+                    <h2>Form registro:</h2>
+                    <form class="registro" action="pagina.html" method="get">
+                        <fieldset>
+                            <legend>Register</legend>
+                            <input type="text" name="user" placeholder="User"/><br /><br />
+                            Password: <input type="password" name="clave" /><br /><br />
+                            <textarea name="comentarios" id="" cols="30" rows="3"></textarea><br /><br />
+
+                            Aficiones:<br />
+                            <input type="checkbox" name="aficiones" value="Tenis" id="">Tenis<br />
+                            <input type="checkbox" name="aficiones" value="Televisión" id="">Televisión<br />
+                            <input type="checkbox" name="aficiones" value="Juegos" id="">Juegos<br />
+                            <input type="checkbox" name="aficiones" value="Ordenadores" id="">Ordenadores<br />
+                            <br /><br />
+                            Comida:<br />
+                            <input type="radio" name="sexo" value="Hombre" id="">Desayuno<br />
+                            <input type="radio" name="sexo" value="Mujer" id="">Comida<br />
+                            <input type="radio" name="sexo" value="otro" id="">Merienda<br />
+                            <input type="radio" name="sexo" value="otro" id="">Cena<br />
+                            <br /> <br>
+                            Números:
+                            <select name="Números">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <br /> <br />
+                            Colores Multiples:
+                            <select name="Colores" multiple>
+                                <option value="1">Azul</option>
+                                <option value="2">Amarillo</option>
+                                <option value="3">Rojo</option>
+                                <option value="4">Naranja</option>
+                                <option value="5">Verde</option>
+                                <option value="6">Negro</option>
+                                <option value="7">Blanco</option>
+                                <option value="8">Morado</option>
+                                <option value="9">Rosa</option>
+                                <option value="10">Marrón</option>
+                                <option value="11">Gris</option>
+                                <option value="12">Dorado</option>
+                            </select>
+                            <br> <br>
+                            <p class="txt-center"><input type="submit" value="Aceptar" /></p>
+                            
+
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>&copy; Carlos Maranhas - S1DAM</footer>
+    </div>
+</body>
+</html>

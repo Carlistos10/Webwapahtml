@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(227, 192, 192);
+    background-color: rgb(234, 157, 157);
 }
 a {
     text-decoration: none;
@@ -8,7 +8,7 @@ a {
 .container {
     width: 90%;
     margin: 0 auto;
-    background-color: rgb(138, 209, 105);
+    background-color: rgb(212, 228, 131);
 }
 header {
     background-image: url(../img/cabezera\ wapa.png);
@@ -17,7 +17,7 @@ header {
     height: 150px;
 }
 footer {
-    background-color: rgb(130, 194, 217);
+    background-color: rgb(130, 217, 152);
     color: rgb(0, 0, 0);
     text-align: center;
     font-size: 26px;

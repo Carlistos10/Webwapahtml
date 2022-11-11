@@ -55,11 +55,11 @@ nav ul li {
    font-weight: bold;
    padding: 18px 0;
    border-radius: 20px;
-   border: solid 2px rgb(78, 69, 168);
+   border: solid 2px rgb(0, 0, 0);
 }
 nav ul li:hover {
     color:  rgba(0, 0, 0, 0.793);
-    background-color: rgb(210, 38, 207);
+    background-color: rgb(244, 104, 153);
 }
 .txt-center {
     text-align: center;
@@ -167,6 +167,51 @@ table.horario td{
     background-color: rgb(208, 208, 208);
 }
 
-form.registro{
+form.registro {
     width: 60%;
+}
+
+.w100 {
+    width: 99%;
+}
+
+.w50 {
+    width: 49%;
+}
+
+textarea[name="comentarios"] {
+    max-width: 100%;
+}
+
+.vid{
+    border-radius: 10px;
+}
+
+.fl {
+    display: block;
+    float: left;
+}
+
+audio {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+#formhtml5 form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(15, 227, 255);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#formhtml5 form fieldset legend {
+    background-color: rgb(255, 255, 255);
+    color: rgb(39, 33, 33);
+}
+
+#idrange{
+    width: 40px;
+    text-align: center;
 }

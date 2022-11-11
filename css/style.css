@@ -133,7 +133,7 @@ table.striped tr:nth-child(even) {
 
 table.horario td{
     text-align: center;
-    
+
 }
 
 .sisi{
@@ -220,11 +220,12 @@ audio {
 
 #formhtml5 form fieldset legend {
     background-color: rgb(255, 255, 255);
-    color: rgb(39, 33, 33);
+    color: rgb(33, 16, 16);
 }
 
 #idrange{
     width: 40px;
     text-align: center;
 }
+
 

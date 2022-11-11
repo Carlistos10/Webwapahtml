@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(234, 157, 157);
+    background-image: url(../img/fondo20.jpg);
 }
 a {
     text-decoration: none;
@@ -78,17 +78,19 @@ nav ul li:hover {
     text-align: center;
     padding: 40px 0;
 }
-/*    desordenada customizada */
+
 ul.ldc li {
     list-style-type: square;
 }
+
 ul.ldc li ul li{
     list-style-type: circle;
 }
+
 ul.ldc li ul li ul li{
     list-style-type: disc;
 }
-/*    ordenada customizada */
+
 ol.loc li {
     list-style-type: upper-alpha;
 }
@@ -131,6 +133,7 @@ table.striped tr:nth-child(even) {
 
 table.horario td{
     text-align: center;
+    
 }
 
 .sisi{
@@ -168,7 +171,16 @@ table.horario td{
 }
 
 form.registro {
-    width: 60%;
+    width: 40%;
+    border-style: dashed;
+    border-color: rgb(255, 0, 0);
+    
+}
+
+.registro{
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .w100 {
@@ -215,3 +227,4 @@ audio {
     width: 40px;
     text-align: center;
 }
+
